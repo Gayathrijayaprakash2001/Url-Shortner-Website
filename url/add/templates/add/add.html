@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+</head>
+<body>
+
+<style>
+.container {
+  width: 350px;
+  margin: 100px auto;
+  padding: 30px;
+  border: 2px solid #121213;
+  border-radius: 15px;
+  background-color: #ffffff;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease-in-out;
+}
+</style>
+
+<form method="POST" class="container">
+  {% csrf_token %}
+  <label for="title">Title:</label>
+  <input type="text" name="title" required><br><br>
+
+  <label for="original_url">URL:</label>
+  <input type="url" name="original_url" required><br><br>
+
+  <button type="submit">Submit</button>
+</form>
+
+
+
+<!-- <a href="{% url 'add_url' %}" class="btn btn-secondary btn-lg active" role="button" aria-pressed="true">Link</a> -->
+
+
+
+
+<!-- <a  href="/" class="btn btn-secondary btn-lg active" role="button" aria-pressed="true">Go Back</a> -->
+
+<div class="position-absolute top-0 start-0 m-3">
+    <a href="{% url 'main_home'%}"  class="btn btn-dark btn-sm active bg-dark" role="button" aria-pressed="true">Go Back</a>
+</div>
+
+<style>
+    .list-group {
+        margin-top: 80px; /* space below the Go Back button */
+        margin-right: 50%;
+        width: 20%;
+    }
+</style>
+
+</body>
+</html>
