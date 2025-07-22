@@ -1,43 +1,43 @@
 # Url-Shortner-Website
-RL Shortener is a Django-based web application that allows users to register, log in, and manage shortened URLs. It provides a personalized URL shortening service with authentication, search, pagination, and CRUD operations.
+URL Shortener is a Django-based web application that allows users to register, log in, and manage shortened URLs. It provides a personalized URL shortening service with authentication, search, pagination, and CRUD operations.
 
 ✨ Features
-📝 User Registration & Authentication
-Users can sign up, log in, and securely manage their own URLs.
+●📝 User Registration & Authentication
+ ● Users can sign up, log in, and securely manage their own URLs.
 
 ➕ Add URLs with Titles
-Logged-in users can add URLs with custom titles.
-⛔ Limit: Each user can add a maximum of 5 URLs. After that, an error message is shown.
+●Logged-in users can add URLs with custom titles.
+ ● ⛔ Limit: Each user can add a maximum of 5 URLs. After that, an error message is shown.
 
-🔗 Automatic URL Shortening
-The original URL is automatically shortened and stored in the MySQL database.
+●🔗 Automatic URL Shortening
+ ● The original URL is automatically shortened and stored in the MySQL database.
 
-📋 URL Listing with Pagination
+●📋 URL Listing with Pagination
 Logged-in users can view a paginated list of their URLs showing:
 
-Title
+ ● Title
 
-Original URL
+ ● Original URL
 
-Shortened URL
+ ● Shortened URL
 
-Date & time added
+ ● Date & time added
 
-🔍 Search Functionality
-Search by title or original URL to quickly find specific entries.
+●🔍 Search Functionality
+ ● Search by title or original URL to quickly find specific entries.
 
-✏️ Edit/Delete URLs
-Full control to update or remove URLs from your personal list.
+●✏️ Edit/Delete URLs
+ ● Full control to update or remove URLs from your personal list.
 
-🔓 Logout Option
-Users can securely log out at any time.
+●🔓 Logout Option
+ ● Users can securely log out at any time.
 
 
 🛠️ Tech Stack
-Backend: Django
+  ● Backend: Django
 
-Frontend: HTML, CSS
+  ● Frontend: HTML, CSS
 
-Database: MySQL
+  ● Database: MySQL
 
-Authentication: Django's built-in auth system
+  ● Authentication: Django's built-in auth system
