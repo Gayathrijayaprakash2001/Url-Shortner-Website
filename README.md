@@ -1,4 +1,4 @@
-# Url-Shortner-Website
+# Url-Shortner
 URL Shortener is a Django-based web application that allows users to register, log in, and manage shortened URLs. It provides a personalized URL shortening service with authentication, search, pagination, and CRUD operations.
 
 ✨ Features
